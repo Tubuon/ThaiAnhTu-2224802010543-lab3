@@ -1,17 +1,21 @@
-# calculator_app
+# Advanced Calculator - Lab 3
 
-A new Flutter project.
+## Thông tin sinh viên
+- **Họ tên:** Thái Anh Tú
+- **MSSV:** 2224802010543
 
-## Getting Started
+## Các chức năng chính
+- **Chế độ:** Cơ bản (Basic), Khoa học (Scientific), Lập trình (Programmer).
+- **Logic:** Xử lý biểu thức phức tạp, toán tử Bitwise (AND, OR, XOR, NOT, <<, >>).
+- **Cử chỉ:** Vuốt ngang để xóa số, vuốt lên để xem lịch sử.
+- **Tính năng nâng cao:**
+  - Nhấn giữ nút 'C' để xóa sạch lịch sử.
+  - Hiệu ứng rung (Haptic Feedback) khi nhấn phím.
+  - Hiệu ứng rung màn hình (Shake Animation) khi gặp lỗi (Error).
+- **Lưu trữ:** Lưu Theme và Lịch sử qua SharedPreferences.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kết quả kiểm thử (Testing)
+- Đạt độ bao phủ logic >80%.
+- Tất cả 16 bài test (Unit & Widget) đều đạt trạng thái **Passed**.
+<img width="1662" height="971" alt="image" src="https://github.com/user-attachments/assets/e942bcf9-9134-4d82-b14d-e46cb3b69198" />
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/68a5b143-1bc0-4f00-be00-027e4e81dc8b" />
